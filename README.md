@@ -18,7 +18,7 @@ $ sudo ln -s /var/lib/snapd/snap /snap
 ## Las fonts
 > seguimos con el tuto del savitar
 
-descargar wget e instalar en $/usr/share/fonts como $sudo 
+descargar wget e instalar en ` /usr/share/fonts` como ` sudo `
 ```bash
 $ wget https://fontlot.com/downfile/5baeb08d06494fc84dbe36210f6f0ad5.105610
 ```
@@ -28,3 +28,5 @@ $ find . | grep "\.ttf$" | while read line; do cp  $line .; done
 $ rm -r iosevka-2.2.1/
 $ rm -r iosevka-slab-2.2.1/
 ```
+Nos bajamos el archivos de dropbox $https:://dropbox.com/s/hrkub2yo9iapljz/icomoon.zip?dl=o
+> icomoon
